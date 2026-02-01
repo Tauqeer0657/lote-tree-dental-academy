@@ -249,7 +249,7 @@ export default function HomeSample7() {
                         >
                             <div className="relative aspect-[3/4] overflow-hidden border border-black/10">
                                 <img
-                                    src="/src/assets/Santosh-Patil-img.jpg"
+                                    src={mockDentists[0].profileImageUrl}
                                     alt="Dr. Santosh Patil - Director"
                                     className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                                 />
