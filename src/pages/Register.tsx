@@ -39,11 +39,11 @@ const registrationSchema = z.object({
     accessibilityNeeds: z.string().optional(),
 
     // Extra Options
-    daysSelection: z.enum(['1', '2', '3']).default('3'),
-    workshopAddOn: z.boolean().default(false),
-    networkingDinner: z.boolean().default(false),
-    recordingsAccess: z.boolean().default(false),
-    vipSeating: z.boolean().default(false),
+    daysSelection: z.enum(['1', '2', '3']).optional(),
+    workshopAddOn: z.boolean().optional(),
+    networkingDinner: z.boolean().optional(),
+    recordingsAccess: z.boolean().optional(),
+    vipSeating: z.boolean().optional(),
 });
 
 type FormData = z.infer<typeof registrationSchema>;
