@@ -96,7 +96,7 @@ export default function Register() {
             surgeryAddress: '',
             dataConsent: false,
             accommodationNeeded: 'no',
-            accommodationDays: undefined,
+            accommodationDays: '1',
             accommodationDetails: '',
             dietaryRestrictions: '',
             accessibilityNeeds: '',
