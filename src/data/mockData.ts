@@ -1,7 +1,7 @@
 import type { Dentist, WebinarEvent, Review, PricingOption } from '../types';
 
-import SantoshImg from '../assets/Santosh-Patil-img.jpg';
-import ViktorImg from '../assets/Viktor-Shcherbakov.png';
+import SantoshImg from '../assets/santosh.jpg';
+import ViktorImg from '../assets/viktor.png';
 
 // Placeholder dentist data - Replace with real data
 export const dentists: Dentist[] = [
